@@ -1,0 +1,36 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abjabja/QuickStart-MERN-back-end.git"
+  },
+  "author": "ABJABJA SalahEddine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abjabja/QuickStart-MERN-back-end/issues"
+  },
+  "homepage": "https://github.com/abjabja/QuickStart-MERN-back-end#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "google-auth-library": "^9.4.2",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "validator": "^13.7.0"
+  }
+}
